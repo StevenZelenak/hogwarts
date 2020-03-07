@@ -5,9 +5,9 @@ import '../styles/main.scss';
 
 
 const init = () => {
-  const students = studentData.getStudents();
+  const allStudents = studentData.getStudents();
   navbar.loadNavbar();
-  studentList.createStudentList(students);
+  studentList.createStudentList(allStudents);
 };
 
 init();
